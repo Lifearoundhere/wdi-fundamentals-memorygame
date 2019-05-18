@@ -1,5 +1,6 @@
 body {
 text-align: center;
+margin: 0;
 }
 
 h1 {
@@ -7,7 +8,8 @@ font-family: "Raleway", sans-serif;
 font-weight: 400;
 font-size: 45px;
 letter-spacing: 1px;
-color: #0D2C40;
+color: #FFFFFF;
+margin: 0;
 }
 
 a{
@@ -15,9 +17,10 @@ font-family: "Raleway", sans-serif;
 font-weight: 600;
 font-size: 18px;
 letter-spacing: 1px;
-color: #F15B31;
-
-
+color: #FFFFFF; 
+margin: 0 20px 0 20px;
+border-bottom: 2px solid transparent;
+text-decoration: none
 }
 
 h2 {
@@ -28,9 +31,59 @@ letter-spacing: 1px;
 color: #0D2C40;
 }
 p{
+font-family: "DROID SERIF"
+font-size: 18px;
+line-height: 26px;
+}
+header{
+background-color: #F15B31;
+color: #FFFFFF;
+padding: 30px 20px;
 
-	font-family: "DROID SERIF"
-	font-size: 18px;
-	line-height: 26px;
-	
+}
+nav{
+background-color: #00A6B3;
+color: #FFFFFF; 
+padding:20px 0px;
+text-decoration: normal;
+}
+main{
+
+	width:850px;
+	margin:35px auto; 
+}
+img{
+	margin: 40px 8px;
+}
+footer{
+padding: 0 20px;
+text-transform: uppercase;
+background-color: #0D2C40;
+color: #FFFFFF; 
+font-size: 14px;
+letter-spacing: .08em;
+font-weight: 500;
+font-family: "Raleway", sans-serif;
+
+}
+.copyright{
+float: left;
+}
+.message{
+float: right;
+} 
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+.name{
+color:#F15B31;
+font weight:700;
+}
+a:hover {
+border-color: white;
 }
